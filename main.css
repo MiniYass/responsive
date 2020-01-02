@@ -1,0 +1,49 @@
+
+@media  (max-width: 375px ){
+
+    body{
+        font-size: x-small;
+        background-color: red;
+
+    }
+    #large,#medium{
+        
+    }
+}
+
+/* + que smartphone */ 
+
+
+@media (min-width: 375px) and (max-width:768px){
+
+    body{
+        width: 33%;
+        font-size: medium;
+        background-color: green;
+
+    }
+    #small{
+        width: 66%;
+
+    }
+    #large{
+        width: 100%;
+    }
+}
+
+/*Big screen*/
+
+@media  (min-width: 768px ){
+
+    body{
+        display:flex;
+        font-size: large;
+        background-color: blue;
+
+    }
+    #small,#medium{
+        float:left;
+    }
+}
+    
+
